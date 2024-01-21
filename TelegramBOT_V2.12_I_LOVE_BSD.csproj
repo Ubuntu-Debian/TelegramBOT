@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <RootNamespace>TelegramBOT_V_2._0</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="IronPython" Version="3.4.1" />
+      <PackageReference Include="Microsoft.Data.Sqlite" Version="8.0.0-rc.2.23480.1" />
+      <PackageReference Include="Microsoft.Data.Sqlite.Core" Version="8.0.0" />
+      <PackageReference Include="Telegram.Bot" Version="20.0.0-alpha.1" />
+    </ItemGroup>
+
+</Project>
